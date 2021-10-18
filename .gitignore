@@ -1,0 +1,7 @@
+logs
+*.log
+~$*.xls*
+*.class
+*target/
+*.iml
+*.idea
