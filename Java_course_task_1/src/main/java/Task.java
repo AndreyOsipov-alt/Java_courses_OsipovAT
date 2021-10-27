@@ -8,7 +8,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Task {
-    private Integer id;
+
     private String status;
     private String name_task;
 
@@ -16,6 +16,6 @@ public class Task {
 
     @Override
     public String toString() {
-        return id+"." + " " + "[" +  status + "]" + " " + name_task;
+        return "[" +  status + "]" + " " + name_task;
     }
 }
